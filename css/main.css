@@ -1,0 +1,324 @@
+* {
+	font-family: 'Montserrat';
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Montserrat', 'Helvetica', 'Verdana' sans-serif;
+}
+
+body {
+	font-family: 'Montserrat', 'Helvetica', 'Verdana' sans-serif;
+}
+
+p {
+	/*color: #3F3F3F;*/
+	color: #666666;
+	font-size: 1.2em;
+}
+.special-character {
+	/*Find a font with nice spacial characters for commas, question marks, etc. as Monteserrat doesn't look good*/
+	/*font-family: 'Helvetica';*/
+}
+#styleguide {
+	padding-top: 10rem;
+	padding-left: 5rem;
+	padding-right:5rem;
+}
+
+/*Styling main-nav-bar*/
+.main-header {
+	display: flex;
+	flex-wrap: wrap;
+	height: 5rem;
+}
+
+.header-links {
+	flex: 2.7;
+	order: 2;
+}
+.header-logo {
+	flex: 1;
+	order: 1;
+	padding-left: 5%;
+}
+.header-logo img {
+	max-width: 60%;
+	padding-top: 5%;
+	/*padding-left: 10%;*/
+}
+
+.grid-header {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 1.2rem;
+	padding-top:2%;
+	padding-left: 0.5%;
+	padding-bottom: 0.5%;
+	background-color: white;
+
+}
+.grid-header:last-child {
+	padding-right: 0.5%;
+}
+.border-header {
+	margin-right: 0.5%;
+	margin-left: 0.5%;
+	margin-top: 0.5%;
+}
+.grid-main-nav {
+	padding-top: 2%;
+	margin-bottom: 2%;
+	margin-top: 1%;
+	flex-basis: 100%;
+	text-align: center;
+	/*background-color: red;*/
+}
+/*styling main nav anchor links*/
+.grid-main-nav a {
+	padding: 10% 15% 4%; /*add spacing to make link easier to click*/
+	text-decoration: none;
+	color: #309499;
+	/*transition: 0.5s;*/
+}
+.grid-main-nav a:hover, .grid-main-nav a:focus {
+	border-bottom: 2px solid #309499;
+	border-radius: 2%;
+}
+
+/*__________________________________*/
+
+
+/*Container holds main content in page*/
+.container {
+	/*max-width: 90%;*/
+	margin: auto;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+/*Styling h1 and image on home screen*/
+.row {
+	display: flex;
+	align-items: top;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 5%;
+}
+.col-1-of-2 {
+	flex-basis: 50%;
+	min-width: 15%;
+}
+.col-1-of-2 img{
+	max-width: 70%;
+	/*min-width: 80%;*/
+	/*min-width: 50%;*/
+	/*padding: 6rem 0;*/
+}
+.col-1-of-2 h1{
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 3rem;
+	line-height: 3.5rem;
+	max-width: 10em;
+	color: #333333;
+	padding-top: 20%;
+}
+#home-subtitle {
+	max-width: 25em;
+}
+.col-1-of-2-content {
+	padding-left: 5%;
+}
+span.copyright {
+	font-size: 0.5em;
+	font-weight: 300;
+	padding: 0;
+	margin: 0;
+}
+.col-1-of-2 p {
+	max-width: 50em;
+}
+/*Button Styling*/
+.btn {
+	display: inline-block;
+	/*background-color: #f7a5a7;*/
+	background-color: #ff9497;
+	color: white;
+	padding: 0.5rem 2.2rem;
+	margin: 2rem 0;
+	border: 1px solid #ff9497;
+	border-radius: 2rem;
+	text-decoration: none;
+	transition: background-color 0.5s;
+	font-weight: bold;
+}
+.btn:hover, .btn:focus{
+	/*background-color: #FF6F94;*/
+	background-color: white;
+	color: #ff9497;
+	border: 1px solid #ff9497;
+	font-weight: bold;
+}
+/*Contains home page main screen*/
+.header {
+	/*background-color: #FFFAFA;*/
+}
+.header .row {
+	margin-top: 3rem;
+}
+
+/*Styling featured categories*/
+.categories {
+	margin: 5rem 0;
+}
+.col-1-of-3 {
+	flex-basis: 30%;
+	/*min-width: 250px;*/
+	margin-bottom: 2rem;
+}
+.col-1-of-3 img {
+	max-width: 100%;
+}
+
+.product-container {
+	/*max-width: 1080px;*/
+	margin: auto;
+/*	padding-left: 1.8rem;
+	padding-right: 1.8rem;*/
+	padding-left: 5%;
+	padding-right: 5%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+/*Styling featured Products*/
+.col-1-of-4 {
+	flex-basis: 25%;
+	padding: 0.8rem;
+	/*min-width: 200px*/
+	/*min-width: 30%;*/
+	padding-bottom: 5%;
+	margin-bottom: 3rem;
+	display: flex;
+	flex-wrap: wrap;
+	transition: 0.3s;
+}
+.col-1-of-4:hover, .col-1-of-4:focus {
+	transform: translateY(-0.5rem);
+	opacity: 0.8;
+/*	border: 0.4px solid rgba(0, 0, 0, 0.05);
+	border-radius: 1rem;
+	padding-bottom: 2rem;*/
+	cursor: pointer;
+	box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgba(48, 148, 153, 0.04);
+/*	background-color: rgba(48, 148, 153, 0.04);*/
+}
+.col-1-of-4 img {
+	width: 100%;
+}
+.col-1-of-4 h4 {
+	/*display: block;*/
+	padding-top: 1rem;
+	/*max-width: 70%;*/
+	color: #404040;
+	font-weight: 300;
+	font-size: 1.1rem;
+	text-align: left;
+	/*position: absolute;*/
+
+}
+.product-title {
+	text-align: center;
+	margin: 0 auto 2rem;
+	position: relative;
+	line-height: 5rem;
+	color: #535353;
+}
+.product-title::after {
+	content:'';
+	background: #309499;
+	width: 5rem;
+	height: 0.2rem;
+	border-radius: 0.3rem;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+/*fix for weird product listing images not lining up properly*/
+.product-name {
+	height: 3rem;
+}
+/*Styling for star rating*/
+.rating {
+	padding-top: 0.5rem;
+}
+.rating .fa {
+	color: #309499;
+	padding-right: 4%;
+}
+
+
+/*Testimonials styling
+	-> col-1-of-3*/
+.testimonial {
+	padding-top: 0.5%;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+blockquote.testimonial-copy {
+	padding: 0 4%;
+	font-size: 1.1rem;
+	line-height: 1.6rem;
+}
+p.testimonial-name {
+	padding-left: 8%;
+	padding-top: 2%;
+	color: rgba(48, 148, 153, 0.5);
+	font-size: 1.1rem;
+	/*font-style: italic;*/
+}
+/* quotation marks styling */
+.fa-quote-left {
+	/*color: #309499;*/
+	color: rgba(48, 148, 153, 0.6);
+}
+
+
+/*Styling footer for brand logos*/
+footer {
+	margin: 5%;
+	border-top: 0.5px solid rgba(48, 148, 153, 0.2);
+	/*border-bottom: 0.5px solid rgba(48, 148, 153, 0.2);*/
+}
+.brands {
+	margin: 5%;
+}
+.col-1-of-5 {
+	flex-basis: 20%;
+}
+.col-1-of-5 img{
+	max-width: 65%;
+	filter: grayscale(100%);
+	opacity: 70%;
+}
+.col-1-of-5 img:hover, .col-1-of-5 img:focus{
+	filter: grayscale(0);
+	opacity: 100%;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

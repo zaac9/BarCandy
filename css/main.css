@@ -88,6 +88,18 @@ p {
 	border-radius: 2%;
 }
 
+/*Styling menu icon for mobile*/
+.menu-btn {
+	padding: 0.35em 1.2em;
+	border: 0.1em solid #309499;
+	border-radius: 1em;
+	box-sizing: border-box;
+	text-decoration: none;
+	background-color: white;
+	color: #309499;
+	text-align: center;
+	transition: all 0.5s;
+}
 /*__________________________________*/
 
 
@@ -150,7 +162,7 @@ span.copyright {
 	padding: 0.5rem 2.2rem;
 	margin: 2rem 0;
 	border: 1px solid #ff9497;
-	border-radius: 2rem;
+	border-radius: 1.5rem;
 	text-decoration: none;
 	transition: background-color 0.5s;
 	font-weight: bold;

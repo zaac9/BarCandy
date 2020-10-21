@@ -84,6 +84,7 @@ nav.main-header {
 	display: none;
 	flex-wrap: wrap;
 	order: 3;
+	padding-right: 5%;
 	/*cursor: pointer;*/
 }
 .menu-btn {

@@ -29,13 +29,14 @@ p {
 }
 
 /*Styling main-nav-bar*/
-.main-header {
+nav.main-header {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-around;
 	height: 5rem;
 }
 
-.header-links {
+.nav-links {
 	flex: 2.7;
 	order: 2;
 }
@@ -49,8 +50,8 @@ p {
 	padding-top: 5%;
 	/*padding-left: 10%;*/
 }
-
-.grid-header {
+/*ul element:*/
+.nav-links{
 	display: flex;
 	flex-wrap: wrap;
 	font-size: 1.2rem;
@@ -58,11 +59,37 @@ p {
 	padding-left: 0.5%;
 	padding-bottom: 0.5%;
 	background-color: white;
-
+	text-decoration: none;
 }
-.grid-header:last-child {
+.nav-links:last-child {
 	padding-right: 0.5%;
 }
+/*styling main nav anchor links*/
+.nav-links li {
+	list-style-type: none;
+}
+.nav-links a {
+	padding: 10% 15% 4%; /*add spacing to make link easier to click*/
+	text-decoration: none;
+	color: #309499;
+	letter-spacing: 0.02rem;
+	font-weight: 400;
+	/*transition: 0.5s;*/
+}
+.nav-links a:hover, .nav-links a:focus {
+	border-bottom: 2px solid #309499;
+	border-radius: 2%;
+}
+.burger {
+	display: none;
+	flex-wrap: wrap;
+	order: 3;
+	/*cursor: pointer;*/
+}
+.menu-btn {
+	cursor: pointer;
+}
+
 .border-header {
 	margin-right: 0.5%;
 	margin-left: 0.5%;
@@ -76,17 +103,7 @@ p {
 	text-align: center;
 	/*background-color: red;*/
 }
-/*styling main nav anchor links*/
-.grid-main-nav a {
-	padding: 10% 15% 4%; /*add spacing to make link easier to click*/
-	text-decoration: none;
-	color: #309499;
-	/*transition: 0.5s;*/
-}
-.grid-main-nav a:hover, .grid-main-nav a:focus {
-	border-bottom: 2px solid #309499;
-	border-radius: 2%;
-}
+
 
 /*Styling menu icon for mobile*/
 .menu-btn {

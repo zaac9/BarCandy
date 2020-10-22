@@ -6,11 +6,11 @@
 }
 
 html {
-	font-family: 'Montserrat', 'Helvetica', 'Verdana' sans-serif;
+	font-family:'Montserrat', 'Helvetica', 'Verdana', sans-serif;
 }
 
 body {
-	font-family: 'Montserrat', 'Helvetica', 'Verdana' sans-serif;
+	font-family:'Montserrat', 'Helvetica', 'Verdana', sans-serif;
 }
 
 p {
@@ -149,7 +149,7 @@ nav.main-header {
 /*Styling h1 and image on home screen*/
 .row {
 	display: flex;
-	align-items: top;
+	/*align-items: top;*/
 	flex-wrap: wrap;
 	justify-content: space-around;
 	margin-top: 5%;

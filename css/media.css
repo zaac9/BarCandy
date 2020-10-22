@@ -1,23 +1,46 @@
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 800px) {
 	.grid-main-nav {
 		flex-basis: 20%;
 	}
 }
 
+/*styling changes for <1060px in screen width*/
+@media screen and (max-width: 1060px) {
+	h1 {
+		font-size: 2rem;
+		line-height: 2.3rem;
+		max-width: 10em;
+		padding-top: 20%;
+	}
+	#home-subtitle {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	h1 {
+		font-size: 1.5rem;
+		line-height: 1.9rem;
+		max-width: 10em;
+		padding-top: 15%;
+	}
+
+	.col-1-of-4 {
+		flex-basis: 50%;
+		padding-bottom: 5%;
+		margin-bottom: 0;
+	}
+	.col-1-of-4:last-child {
+		margin-bottom: 3rem;
+	}
+
+	.col-1-of-5 {
+		flex-basis: 25%;
+	}
+}
+
 /*Screen width smaller than set pixel value*/
 @media screen and (max-width: 800px) {
-	/*.header-nav-container */
-/*	.header-links{
-		position: absolute;
-		top: 10%;
-		left: 0;
-		background: #333;
-		width: 100%;
-	}*/
-/*	nav.main-header {
-		height: 80%;
-	}*/
-
 	body {
 		overflow-x: hidden;
 	}
@@ -35,6 +58,7 @@
 		width: 40%;
 		flex-direction: column;
 		transform: translateX(100%);
+		transition-duration: 0.3s
 		/*align-items: center;*/
 		/*width: 50%;*/
 	}
@@ -67,10 +91,12 @@
 	from{
 		opacity: 0;
 		transform: translateX(50px);
+		/*transition-duration: 0.5s*/
 	}
 	to{
 		opacity: 1;
 		transform: translateX(0px);
+		/*transition-duration: 0.5s*/
 	}
 }
 

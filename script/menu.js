@@ -1,19 +1,19 @@
-alert();
-function change() {
-	var menu-button = document.querySelector('.menu-btn');
+// alert();
+// function change() {
+// 	var menu-button = document.querySelector('.menu-btn');
 
-	if (menu-button.value === "Menu" {
-		// menu-button.textContent = "Close";
-		menu-button.value = "Close";
-		menu-button.innerHTML = "Close";
-	} else {
-		// menu-button.textContent = "Menu";
-		menu-button.value = "Menu";
-		menu-button.innerHTML = "Menu";
-	}
-}
+// 	if (menu-button.value === "Menu" {
+// 		// menu-button.textContent = "Close";
+// 		menu-button.value = "Close";
+// 		menu-button.innerHTML = "Close";
+// 	} else {
+// 		// menu-button.textContent = "Menu";
+// 		menu-button.value = "Menu";
+// 		menu-button.innerHTML = "Menu";
+// 	}
+// }
 
-change();
+// change();
 
 
 

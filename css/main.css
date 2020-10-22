@@ -278,6 +278,11 @@ span.copyright {
 	left: 50%;
 	transform: translateX(-50%);
 }
+#product-page-title {
+	padding-top: 5%;
+	margin-top: 5%;
+}
+
 /*fix for weird product listing images not lining up properly*/
 .product-name {
 	height: 3rem;

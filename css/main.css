@@ -18,6 +18,23 @@ p {
 	color: #666666;
 	font-size: 1.2em;
 }
+p.about-information {
+	padding-top: 3%;
+	padding-left: 15%;
+	max-width: 80%;
+}
+
+h3 {
+	font-weight: 500;
+	text-align: center;
+	font-size: 1.4rem;
+	color: #333333;
+}
+h4#about {
+	text-align: center;
+	margin-top: 5%;
+}
+
 .special-character {
 	/*Find a font with nice spacial characters for commas, question marks, etc. as Monteserrat doesn't look good*/
 	/*font-family: 'Helvetica';*/
@@ -261,6 +278,7 @@ span.copyright {
 
 }
 .product-title {
+	font-size: 1.7rem;
 	text-align: center;
 	margin: 0 auto 2rem;
 	position: relative;
@@ -278,7 +296,7 @@ span.copyright {
 	left: 50%;
 	transform: translateX(-50%);
 }
-#product-page-title {
+.page-subtitle {
 	padding-top: 5%;
 	margin-top: 5%;
 }

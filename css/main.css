@@ -51,6 +51,13 @@ nav.main-header {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	height: 5rem;
+	/*z-index: 1;*/
+}
+/*#navigation {
+	z-index: 2;
+}*/
+.nav-links li {
+	background-color: white;
 }
 
 .nav-links {
@@ -120,6 +127,7 @@ nav.main-header {
 	flex-basis: 100%;
 	text-align: center;
 	/*background-color: red;*/
+	/*background-color: white;*/
 }
 
 

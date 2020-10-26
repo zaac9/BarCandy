@@ -1,3 +1,5 @@
+
+
 /*------------ BASIC REPONSIVENESS OF SITE -------------*/
 @media screen and (min-width: 800px) {
 	.grid-main-nav {
@@ -15,6 +17,9 @@
 	}
 	#home-subtitle {
 		font-size: 1rem;
+	}
+	.nav-links li {
+		font-size: 1.1rem;
 	}
 }
 
@@ -43,9 +48,9 @@
 		flex-basis: 100%;
 	}
 
-/*	.col-1-of-2 {
+	.col-1-of-2 {
 		flex-basis: 100%;
-	}*/
+	}
 /*	.col-1-of-2 img{
 		order: 1;
 		diplay: flex;

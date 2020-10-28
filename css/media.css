@@ -25,6 +25,24 @@
 	.col-1-of-4 h3 {
 		font-size: 1rem;
 	}
+
+	/*Contact page*/
+	.contact {
+		padding: 5%;
+	}
+	.container-contact {
+		flex-direction: column;
+	}
+	.contact-info {
+		padding-left: 5%;
+	}
+	.contact-info, .contact-form {
+		width: 100%;
+	}
+	.input-box input[type="submit"] {
+		font-size: 1.4rem;
+	}
+
 }
 
 @media screen and (max-width: 750px) {

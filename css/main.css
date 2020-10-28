@@ -20,7 +20,7 @@ p {
 	font-size: 1.2em;
 }
 p.about-information {
-	padding-top: 3%;
+	padding-top: 2%;
 	padding-left: 15%;
 	max-width: 80%;
 }
@@ -31,10 +31,19 @@ p.about-information {
 	font-size: 1.4rem;
 	color: #333333;
 }*/
+h3#mission-statement {
+	/*text-align: center;*/
+	font-weight: 600;
+	color: #8C8C8C;
+	margin-left: 15%;
+	margin-right: 15%;
+}
 
-h4#about {
+h4.about {
 	text-align: center;
 	margin-top: 5%;
+	font-size: 1.25rem;
+	color: #4D4D4D;
 }
 
 .special-character {
@@ -194,6 +203,10 @@ span.copyright {
 	font-weight: 300;
 	padding: 0;
 	margin: 0;
+}
+span.bold {
+	font-weight: 600;
+	text-transform: lowercase;
 }
 .col-1-of-2 p {
 	max-width: 50em;
@@ -370,7 +383,8 @@ footer {
 }
 .col-1-of-5 img:hover, .col-1-of-5 img:focus{
 	filter: grayscale(0);
-	opacity: 100%;	
+	opacity: 100%;
+	cursor: pointer;
 }
 
 

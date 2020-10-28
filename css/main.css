@@ -283,7 +283,7 @@ span.copyright {
 	font-size: 1.1rem;
 	text-align: left;
 	/*position: absolute;*/
-
+	text-transform: capitalize;
 }
 .product-title {
 	font-size: 1.7rem;

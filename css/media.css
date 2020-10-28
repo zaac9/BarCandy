@@ -21,6 +21,10 @@
 	.nav-links li {
 		font-size: 1.1rem;
 	}
+
+	.col-1-of-4 h4 {
+		font-size: 1rem;
+	}
 }
 
 @media screen and (max-width: 750px) {
@@ -35,7 +39,14 @@
 		flex-basis: 50%;
 		padding-bottom: 5%;
 		margin-bottom: 3%;
+/*		padding-left: 5%;
+		padding-right: 5%;*/
 	}
+	.col-1-of-4 img{
+		max-width: 85%;
+	}
+	/*Adding space around product listing*/
+
 /*	.col-1-of-4:last-child {
 		margin-bottom: 3rem;
 	}*/

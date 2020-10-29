@@ -50,11 +50,7 @@ h4.about {
 	/*Find a font with nice spacial characters for commas, question marks, etc. as Monteserrat doesn't look good*/
 	/*font-family: 'Helvetica';*/
 }
-#styleguide {
-	padding-top: 10rem;
-	padding-left: 5rem;
-	padding-right:5rem;
-}
+
 
 /*Styling main-nav-bar*/
 nav.main-header {
@@ -304,6 +300,37 @@ footer {
 }
 .footer-link:hover, .footer-link:focus {
 	text-decoration: underline;
+}
+/*styleguide located in footer:*/
+#styleguide {
+/*	padding-top: 10rem;
+	padding-left: 5rem;
+	padding-right:5rem;*/
+	padding-top: 2rem;
+	color: #A7DFE6;
+}
+
+/*Styling email sign-up*/ 
+.input-box input{
+	width: 100%;
+	padding: 4% 0;
+	padding-left: 4%;
+	margin: 3% 0;
+	font-size: 1rem;
+	border: none;
+	border-bottom: 2px solid #333;
+	outline: none;
+}
+.input-box input[type="submit"] {
+	font-size: 1rem;
+	font-weight: 500;
+	width: 100%;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	margin-top: 1%;
+	padding: 3%;
+	background-color: rgb(48, 148, 153);;
 }
 
 .product-container {

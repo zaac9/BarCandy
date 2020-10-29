@@ -253,6 +253,59 @@ span.bold {
 	max-width: 100%;
 }
 
+
+footer {
+	margin: 0;
+	padding: 0;
+	background-color: #2a2b2f;
+	/*height: 1000px;*/
+}
+.footer-container {
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 0 5%;
+}
+.footer-col-1-of-4 {
+	flex-basis: 25%;
+	padding: 3%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.footer-col-1-of-4 img {
+	max-width: 80%;
+}
+.footer-title {
+	/*lighter turquoise*/
+	color: #3adfe8;
+	font-size: 1.1rem;
+	font-weight: 500;
+	display: block;
+}
+/*<p>*/
+.footer-content {
+	color: #E6E6E6;
+	font-size: 1rem;
+	font-weight: 400;
+}
+.footer-content-container .link, .footer-content-container p {
+	padding-top: 3%;
+}
+/*<a>*/
+.footer-link {
+	/*display: block;*/
+	color: #E6E6E6;
+	font-size: 1rem;
+	font-weight: 400;
+	text-decoration: none;
+	align-content: stretch;
+	flex-direction: column;
+	/*flex-wrap: wrap;*/
+}
+.footer-link:hover, .footer-link:focus {
+	text-decoration: underline;
+}
+
 .product-container {
 	/*max-width: 1080px;*/
 	margin: auto;
@@ -263,7 +316,6 @@ span.bold {
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
-
 /*Styling featured Products*/
 .col-1-of-4 {
 	flex-basis: 25%;
@@ -364,12 +416,7 @@ p.testimonial-name {
 }
 
 
-/*Styling footer for brand logos*/
-footer {
-	margin: 5%;
-	border-top: 0.5px solid rgba(48, 148, 153, 0.2);
-	/*border-bottom: 0.5px solid rgba(48, 148, 153, 0.2);*/
-}
+/*Styling brand logos at bottom of page*/
 .brands {
 	margin: 5%;
 }

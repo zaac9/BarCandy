@@ -63,6 +63,9 @@
 	.col-1-of-4 img{
 		max-width: 85%;
 	}
+	.footer-col-1-of-4 {
+		flex-basis: 50%;
+	}
 	/*Adding space around product listing*/
 
 /*	.col-1-of-4:last-child {
@@ -101,6 +104,10 @@
 	.col-1-of-4 img{
 		max-width: 70%;
 
+	}
+	.footer-col-1-of-4 {
+		flex-basis: 100%;
+		justify-content: center;
 	}
 }
 

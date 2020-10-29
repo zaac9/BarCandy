@@ -37,11 +37,11 @@
 	align-content: center;
 }
 .cart-col-1-of-2 img {
-	max-width: 60%;
+	max-width: 70%;
 	padding-left: 20%;
 }
 .checkout-form {
-	width: 40%;
+	width: 100%;
 	padding: 5%;
 	background: white;
 }

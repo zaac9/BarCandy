@@ -343,31 +343,45 @@ footer {
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
-/*Styling featured Products*/
+/*Styling basic 4-column elements*/
 .col-1-of-4 {
 	flex-basis: 25%;
-	padding: 0.8rem;
-	/*min-width: 200px*/
-	/*min-width: 30%;*/
-	padding-bottom: 5%;
-	margin-bottom: 3rem;
 	display: flex;
 	flex-wrap: wrap;
-	transition: 0.3s;
+/*	padding: 0.8rem;
+	padding-bottom: 5%;
+	margin-bottom: 3rem;*/
+	/*transition: 0.3s;*/
 }
-.col-1-of-4:hover, .col-1-of-4:focus {
+/*.col-1-of-4:hover, .col-1-of-4:focus {
 	transform: translateY(-0.5rem);
 	opacity: 0.8;
-/*	border: 0.4px solid rgba(0, 0, 0, 0.05);
-	border-radius: 1rem;
-	padding-bottom: 2rem;*/
 	cursor: pointer;
 	box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgba(48, 148, 153, 0.04);
+	/*	border: 0.4px solid rgba(0, 0, 0, 0.05);
+	border-radius: 1rem;
+	padding-bottom: 2rem;*/
 /*	background-color: rgba(48, 148, 153, 0.04);*/
-}
+/*}*/
+
 .col-1-of-4 img {
 	width: 100%;
 }
+/*Styling product listing*/
+.product-listing {
+	padding: 0.8rem;
+	padding-bottom: 5%;
+	margin-bottom: 3rem;
+	transition: 0.3s;
+}
+.product-listing:hover, .product-listing:focus {
+	transform: translateY(-0.5rem);
+	opacity: 0.8;
+	cursor: pointer;
+	box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgba(48, 148, 153, 0.04);
+}
+
+
 .col-1-of-4 h3 {
 	/*display: block;*/
 	padding-top: 1rem;

@@ -461,15 +461,15 @@ p.testimonial-name {
 .brands {
 	margin: 5%;
 }
-.col-1-of-5 {
-	flex-basis: 20%;
+.col-1-of-6 {
+	flex-basis: 16.6%;
 }
-.col-1-of-5 img{
+.col-1-of-6 img{
 	max-width: 65%;
 	filter: grayscale(100%);
 	opacity: 70%;
 }
-.col-1-of-5 img:hover, .col-1-of-5 img:focus{
+.col-1-of-6 img:hover, .col-1-of-5 img:focus{
 	filter: grayscale(0);
 	opacity: 100%;
 	cursor: pointer;

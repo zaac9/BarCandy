@@ -232,6 +232,9 @@ span.copyright {
 }
 span.bold {
 	font-weight: 600;
+	/*text-transform: lowercase;*/
+}
+span.lower {
 	text-transform: lowercase;
 }
 
@@ -242,16 +245,18 @@ p.about-information {
 	/*max-width: 80%;*/
 }
 
-#about-content {
-	padding-bottom: 5%;
+#about-text {
+	display: flex;
+	/*padding-bottom: 5%;*/
 	order: 2;
 	flex: 1.8;
 }
 #about-image {
-	padding-bottom: 5%;
+	display: flex;
+	/*padding-bottom: 5%;*/
 	order: 1;
 	flex: 1;
-	max-width: 100%;
+	/*max-width: 100%;*/
 }
 
 

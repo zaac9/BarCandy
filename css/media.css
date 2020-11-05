@@ -2,8 +2,9 @@
 
 /*------------ BASIC REPONSIVENESS OF SITE -------------*/
 @media screen and (min-width: 800px) {
+	/* navbar*/
 	.grid-main-nav {
-		flex-basis: 20%;
+		flex-basis: 25%;
 	}
 }
 
@@ -43,6 +44,19 @@
 		font-size: 1.4rem;
 	}
 
+}
+@media screen and (max-width: 800px) {
+/*	.about-content {
+		flex-basis: 100%;
+	}*/
+	#about-text {
+		flex: 1;
+		order: 2;
+	}
+	#about-image {
+		flex: 1;
+		order: 1;
+	}
 }
 
 @media screen and (max-width: 750px) {

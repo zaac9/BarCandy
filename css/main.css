@@ -4,7 +4,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
 }
 
 html {
@@ -103,7 +103,7 @@ nav.main-header {
 	list-style-type: none;
 	background-color: white;
 }
-.nav-links a {
+.grid-main-nav a {
 	padding: 10% 15% 4%; /*add spacing to make link easier to click*/
 	text-decoration: none;
 	color: #309499;
@@ -206,6 +206,7 @@ nav.main-header {
 	padding-bottom: 5%;
 	margin-bottom: 3rem;*/
 	/*transition: 0.3s;*/
+	/*overflow-x: visible;*/
 }
 .col-1-of-4 img {
 	width: 100%;

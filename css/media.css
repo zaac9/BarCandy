@@ -116,9 +116,7 @@
 /*---------- MAIN NSVGIATION BAR AND ANIMATION -----------*/
 /*Screen width smaller than set pixel value*/
 @media screen and (max-width: 800px) {
-	* {
-		overflow-x: hidden;
-	}
+
 	body {
 		overflow-x: hidden;
 	}

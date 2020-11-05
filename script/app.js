@@ -4,7 +4,7 @@
 
 ////// from: https://www.youtube.com/watch?v=gXkqy0b4M5g
 const navSlide = function(){
-	const burger 	= document.querySelector('.burger');
+	const burger 	= document.querySelector('.menu-container');
 	const nav 		= document.querySelector('.nav-links');
 	const navLinks  = document.querySelectorAll('.nav-links li');
 	// const menuButton = document.querySelector('.burger .menu-btn');

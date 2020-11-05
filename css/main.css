@@ -92,6 +92,7 @@ nav.main-header {
 	padding-bottom: 0.5%;
 	background-color: white;
 	text-decoration: none;
+	z-index: 1;
 }
 .nav-links:last-child {
 	padding-right: 0.5%;
@@ -148,12 +149,12 @@ nav.main-header {
 	text-align: center;
 	transition: all 0.5s;
 }
-.menu-btn:hover, .menu-btn:focus {
+/*.menu-btn:hover, .menu-btn:focus {
 	background-color: #309499;
 	border: 0.1em solid #309499;
 	border-radius: 1em;
 	color: white;
-}
+}*/
 /*__________________________________*/
 
 

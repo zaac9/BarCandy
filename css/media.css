@@ -129,13 +129,14 @@
 		position: absolute;
 		right: 0;
 		top: 15%;
-		height: 90vh;
-		width: 40%;
+		height: 100vh;
+		width: 100vw;
 		flex-direction: column;
 		transform: translateX(100%);
-		transition-duration: 0.3s
+		transition-duration: 0.3s;
 		/*align-items: center;*/
 		/*width: 50%;*/
+		/*border-bottom: 1px solid  #309499;*/
 	}
 	.grid-main-nav {
 		/*height: 20%;*/
@@ -147,6 +148,14 @@
 	.nav-links li {
 		opacity: 0;
 	}
+	.nav-links a {
+		padding-bottom: 5%;
+		border-bottom: 1px solid  #309499;
+	}
+/*	.nav-links a:last-child {
+		border: none;
+	}*/
+
 
 	.menu-container {
 		display: block;

@@ -155,7 +155,7 @@ nav.main-header {
 	margin: auto;
 /*	padding-left: 8%;
 	padding-right: 8%;*/
-	padding: 0 8%;
+	padding: 1% 8%;
 }
 
 /* - STYLING HOME SCREEN - */
@@ -408,6 +408,12 @@ footer {
 	line-height: 5rem;
 	color: #535353;
 }
+/* --- fix for title on subsequent pages ---*/
+.page-title {
+	padding-top: 5%;
+	/*margin-top: 5%;*/
+}
+
 .content-title::after {
 	content:'';
 	background: #309499;
@@ -418,10 +424,6 @@ footer {
 	bottom: 0;
 	left: 50%;
 	transform: translateX(-50%);
-}
-.page-subtitle {
-	padding-top: 5%;
-	margin-top: 5%;
 }
 
 /*fix for weird product listing images not lining up properly*/

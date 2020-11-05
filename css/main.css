@@ -1,3 +1,4 @@
+/* --- BROAD OVERALL CSS STYLING ---*/
 * {
 	font-family: 'Montserrat';
 	margin: 0;
@@ -48,11 +49,11 @@ h4.about {
 
 .special-character {
 	/*Find a font with nice spacial characters for commas, question marks, etc. as Monteserrat doesn't look good*/
-	/*font-family: 'Helvetica';*/
+	font-family: 'Helvetica';
 }
 
 
-/*Styling main-nav-bar*/
+/* --- STYLING MAIN NAVIGATION BAR ---*/
 nav.main-header {
 	display: flex;
 	flex-wrap: wrap;
@@ -60,33 +61,25 @@ nav.main-header {
 	height: 5rem;
 	/*z-index: 1;*/
 }
-/*#navigation {
-	z-index: 2;
-}*/
-.nav-links li {
-	background-color: white;
-}
-
-.nav-links {
-	flex: 2.7;
-	order: 2;
-}
-.header-logo {
+/* - LOGO -*/
+.barcandy-logo {
 	flex: 1;
 	order: 1;
-	padding-left: 5%;
+	padding-left: 3%;
 }
-.header-logo img {
-	max-width: 60%;
+.barcandy-logo img {
+	max-width: 45%;
 	padding-top: 5%;
 	/*padding-left: 10%;*/
 }
-/*ul element:*/
+/* - NAVIGATION MENU - */
 .nav-links{
 	display: flex;
 	flex-wrap: wrap;
+	flex: 2.7;
+	order: 2;
 	font-size: 1.2rem;
-	padding-top:2%;
+	padding-top: 2%;
 	padding-left: 0.5%;
 	padding-bottom: 0.5%;
 	background-color: white;
@@ -98,6 +91,7 @@ nav.main-header {
 /*styling main nav anchor links*/
 .nav-links li {
 	list-style-type: none;
+	background-color: white;
 }
 .nav-links a {
 	padding: 10% 15% 4%; /*add spacing to make link easier to click*/
@@ -105,21 +99,18 @@ nav.main-header {
 	color: #309499;
 	letter-spacing: 0.02rem;
 	font-weight: 400;
-	/*transition: 0.5s;*/
+	transition: 0.05s;
 }
 .nav-links a:hover, .nav-links a:focus {
 	border-bottom: 2px solid #309499;
 	border-radius: 2%;
 }
-.burger {
+.menu-container {
 	display: none;
 	flex-wrap: wrap;
 	order: 3;
 	padding-right: 5%;
 	/*cursor: pointer;*/
-}
-.menu-btn {
-	cursor: pointer;
 }
 
 .border-header {
@@ -136,10 +127,9 @@ nav.main-header {
 	/*background-color: red;*/
 	/*background-color: white;*/
 }
-
-
 /*Styling menu icon for mobile*/
 .menu-btn {
+	cursor: pointer;
 	padding: 0.35em 1.2em;
 	border: 0.1em solid #309499;
 	border-radius: 1em;
@@ -150,6 +140,12 @@ nav.main-header {
 	text-align: center;
 	transition: all 0.5s;
 }
+.menu-btn:hover, .menu-btn:focus {
+	background-color: #309499;
+	border: 0.1em solid #309499;
+	border-radius: 1em;
+	color: white;
+}
 /*__________________________________*/
 
 
@@ -157,11 +153,12 @@ nav.main-header {
 .container {
 	/*max-width: 90%;*/
 	margin: auto;
-	padding-left: 2rem;
-	padding-right: 2rem;
+/*	padding-left: 8%;
+	padding-right: 8%;*/
+	padding: 0 8%;
 }
 
-/*Styling h1 and image on home screen*/
+/* - STYLING HOME SCREEN - */
 .row {
 	display: flex;
 	/*align-items: top;*/
@@ -169,6 +166,7 @@ nav.main-header {
 	justify-content: space-around;
 	margin-top: 5%;
 }
+/* - BASIC CONTENT FOR 2 COLUMN STRUCTURE -*/
 .col-1-of-2 {
 	flex-basis: 50%;
 	min-width: 15%;
@@ -179,6 +177,41 @@ nav.main-header {
 	/*min-width: 50%;*/
 	/*padding: 6rem 0;*/
 }
+/*Add space around elements*/
+.home-content {
+	padding: 3%;
+}
+/* Message on home screen */
+#home-subtitle {
+	max-width: 25em;
+	font-size: 1.5rem;
+}
+
+
+.col-1-of-4 {
+	flex-basis: 25%;
+	display: flex;
+	flex-wrap: wrap;
+/*	padding: 0.8rem;
+	padding-bottom: 5%;
+	margin-bottom: 3rem;*/
+	/*transition: 0.3s;*/
+}
+.col-1-of-4 img {
+	width: 100%;
+}
+/* Title for individual products (inside .col-1-of-4)*/
+.product-name h3 {
+	/*display: block;*/
+	padding-top: 1rem;
+	color: #404040;
+	font-weight: 400;
+	font-size: 1.3rem;
+	text-align: left;
+	/*position: absolute;*/
+	text-transform: capitalize;
+}
+
 h1{
 	font-family: 'Montserrat';
 	font-weight: 500;
@@ -188,12 +221,7 @@ h1{
 	color: #333333;
 	padding-top: 20%;
 }
-#home-subtitle {
-	max-width: 25em;
-}
-.col-1-of-2-content {
-	padding-left: 5%;
-}
+/*Styling for copyright symbol*/
 span.copyright {
 	font-size: 0.5em;
 	font-weight: 300;
@@ -204,9 +232,7 @@ span.bold {
 	font-weight: 600;
 	text-transform: lowercase;
 }
-.col-1-of-2 p {
-	max-width: 50em;
-}
+
 /*Button Styling*/
 .btn {
 	display: inline-block;
@@ -333,26 +359,17 @@ footer {
 	background-color: rgb(48, 148, 153);;
 }
 
-.product-container {
-	/*max-width: 1080px;*/
+/*.product-container {
+	/* max-width: 1080px;
 	margin: auto;
-/*	padding-left: 1.8rem;
-	padding-right: 1.8rem;*/
 	padding-left: 5%;
-	padding-right: 5%;
+	padding-right: 5%; */
+	/*
 	flex-wrap: wrap;
 	justify-content: space-around;
-}
+}*/
 /*Styling basic 4-column elements*/
-.col-1-of-4 {
-	flex-basis: 25%;
-	display: flex;
-	flex-wrap: wrap;
-/*	padding: 0.8rem;
-	padding-bottom: 5%;
-	margin-bottom: 3rem;*/
-	/*transition: 0.3s;*/
-}
+
 /*.col-1-of-4:hover, .col-1-of-4:focus {
 	transform: translateY(-0.5rem);
 	opacity: 0.8;
@@ -364,14 +381,14 @@ footer {
 /*	background-color: rgba(48, 148, 153, 0.04);*/
 /*}*/
 
-.col-1-of-4 img {
-	width: 100%;
-}
+
 /*Styling product listing*/
 .product-listing {
-	padding: 0.8rem;
+/*	padding: 0.8rem;
+	padding-bottom: 5%;*/
+	padding: 3%;
 	padding-bottom: 5%;
-	margin-bottom: 3rem;
+	/*margin-bottom: 3rem;*/
 	transition: 0.3s;
 }
 .product-listing:hover, .product-listing:focus {
@@ -382,18 +399,8 @@ footer {
 }
 
 
-.col-1-of-4 h3 {
-	/*display: block;*/
-	padding-top: 1rem;
-	/*max-width: 70%;*/
-	color: #404040;
-	font-weight: 300;
-	font-size: 1.1rem;
-	text-align: left;
-	/*position: absolute;*/
-	text-transform: capitalize;
-}
-.product-title {
+
+.content-title {
 	font-size: 1.7rem;
 	text-align: center;
 	margin: 0 auto 2rem;
@@ -401,7 +408,7 @@ footer {
 	line-height: 5rem;
 	color: #535353;
 }
-.product-title::after {
+.content-title::after {
 	content:'';
 	background: #309499;
 	width: 5rem;
@@ -433,13 +440,13 @@ footer {
 
 /*Testimonials styling
 	-> col-1-of-3*/
-.testimonial {
+/*.testimonial {
 	padding-top: 0.5%;
 	padding-right: 5%;
 	padding-left: 5%;
-}
-blockquote.testimonial-copy {
-	padding: 0 4%;
+}*/
+p.testimonial-copy {
+	padding: 0% 3% 3%;
 	font-size: 1.1rem;
 	line-height: 1.6rem;
 }
@@ -458,9 +465,9 @@ p.testimonial-name {
 
 
 /*Styling brand logos at bottom of page*/
-.brands {
+/*.brands {
 	margin: 5%;
-}
+}*/
 .col-1-of-6 {
 	flex-basis: 16.6%;
 }

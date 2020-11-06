@@ -1,4 +1,4 @@
-/* --- BROAD OVERALL CSS STYLING ---*/
+/*  BROAD OVERALL CSS STYLING */
 * {
 	font-family: 'Montserrat';
 	margin: 0;
@@ -62,7 +62,7 @@ h3.subtitle {
 	font-family: 'Helvetica';
 }
 
-/* --- STYLING MAIN NAVIGATION BAR ---*/
+/*  STYLING MAIN NAVIGATION BAR */
 nav.main-header {
 	display: flex;
 	flex-wrap: wrap;
@@ -238,25 +238,30 @@ span.lower {
 	text-transform: lowercase;
 }
 
-/* --- ABOUT PAGE --- */
+/*  ABOUT PAGE  */
 p.about-information {
+	font-size: 1.3rem;
 	padding-top: 2%;
 	/*padding-left: 15%;*/
 	/*max-width: 80%;*/
 }
 
-#about-text {
-	display: flex;
+.about-text {
+	/*display: flex;*/
 	/*padding-bottom: 5%;*/
 	order: 2;
 	flex: 1.8;
 }
-#about-image {
-	display: flex;
+.about-image {
+	/*display: flex;*/
 	/*padding-bottom: 5%;*/
 	order: 1;
 	flex: 1;
 	/*max-width: 100%;*/
+}
+#about-img {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
@@ -322,8 +327,9 @@ footer {
 	flex-wrap: wrap;
 	flex-direction: column;
 }
-.footer-col-1-of-4 img {
-	max-width: 80%;
+/*.footer-col-1-of-4 img:; */
+.footer-logo{
+	max-width: 50%;
 }
 .footer-title {
 	/*lighter turquoise*/
@@ -414,8 +420,8 @@ footer {
 .product-listing {
 /*	padding: 0.8rem;
 	padding-bottom: 5%;*/
-	padding: 3%;
-	padding-bottom: 5%;
+	padding: 2%;
+	padding-bottom: 8%;
 	/*margin-bottom: 3rem;*/
 	transition: 0.3s;
 }
@@ -436,7 +442,7 @@ footer {
 	line-height: 5rem;
 	color: #535353;
 }
-/* --- fix for title on subsequent pages ---*/
+/*  fix for title on subsequent pages */
 .page-title {
 	padding-top: 5%;
 	/*margin-top: 5%;*/
@@ -461,6 +467,7 @@ footer {
 /*Styling for star rating*/
 .rating {
 	padding-top: 0.5rem;
+	padding-bottom: 2%;
 }
 .rating .fa {
 	color: #309499;

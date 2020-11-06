@@ -161,7 +161,7 @@
 	resize: none;
 }*/
 
-/*.input-box span {
+.input-box span {
 	position: absolute;
 	left: 0;
 	font-size: 1rem;
@@ -174,9 +174,7 @@
 }
 
 .input-box input:focus ~ span,
-.input-box input:valid ~ span,
-.input-box textarea:focus ~ span,
-.input-box textarea:valid ~ span {
+.input-box input:valid ~ span{
 	color: rgb(48, 148, 153);
 	font-size: 0.8rem;
 	transform: translateY(-1.5rem);
@@ -193,7 +191,7 @@
 	background-color: rgb(48, 148, 153);;
 }
 
-*/
+
 
 
 

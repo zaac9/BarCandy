@@ -84,22 +84,22 @@
 	font-weight: 500;
 }
 
-.input-box {
+.input-box-contact {
 	position: relative; 
 	width: 100%;
 	margin-top: 2%;
 }
-.input-box input{
+.input-box-contact input.contact-input{
 	width: 100%;
-	padding: 4% 0;
-	margin: 3% 0;
+	padding: 4% 4%;
+	margin: 3% 4%;
 	font-size: 1rem;
 	border: none;
 	border-bottom: 2px solid #333;
 	outline: none;
 }
 
-.input-box textarea {
+.input-box-contact textarea {
 	width: 100%;
 	padding: 4% 0;
 	margin: 3% 0;
@@ -113,8 +113,9 @@
 	resize: none;
 }
 
-.input-box span {
-	position: absolute;
+.input-box-contact span {
+	/*position: absolute;*/
+	/*position: relative;*/
 	left: 0;
 	font-size: 1rem;
 	padding: 4% 0;
@@ -125,16 +126,16 @@
 	color: #666;
 }
 
-.input-box input:focus ~ span,
-.input-box input:valid ~ span,
-.input-box textarea:focus ~ span,
-.input-box textarea:valid ~ span {
+.input-box-contact input.contact-input:focus ~ span,
+.input-box-contact input.contact-input:valid ~ span,
+.input-box-contact textarea:focus ~ span,
+.input-box-contact textarea:valid ~ span {
 	color: rgb(48, 148, 153);
 	font-size: 0.8rem;
 	transform: translateY(-1.5rem);
 }
 
-.input-box input[type="submit"] {
+.input-box-contact input.contact-input[type="submit"] {
 	font-size: 1.2rem;
 	font-weight: 500;
 	width: 100%;

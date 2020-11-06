@@ -40,9 +40,9 @@
 	.contact-info, .contact-form {
 		width: 100%;
 	}
-	.input-box input[type="submit"] {
+/*	.input-box input[type="submit"] {
 		font-size: 1.4rem;
-	}
+	}*/
 	#mission-statement {
 		font-size: 1.8rem;
 	}
@@ -147,9 +147,16 @@
 		margin-right: auto;
 	}
 	.footer-col-1-of-4 {
+		padding-bottom: 5%;
+		margin-bottom: 3%;
 		flex-basis: 100%;
-		justify-content: center;
+		/*justify-content: center;*/
 	}
+	/*Footer image:*/
+	img.footer-logo {
+		max-width: 40%;
+	}
+
 	/*Changing flex-basis for sponsor images*/
 	.col-1-of-6 {
 		flex-basis: 20%;

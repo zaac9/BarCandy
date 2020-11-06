@@ -316,6 +316,7 @@ footer {
 	/*height: 1000px;*/
 }
 .footer-container {
+	/*fegj*/
 	flex-wrap: wrap;
 	justify-content: space-around;
 	padding: 0 5%;
@@ -334,7 +335,7 @@ footer {
 .footer-title {
 	/*lighter turquoise*/
 	color: #3adfe8;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	font-weight: 500;
 	display: block;
 }

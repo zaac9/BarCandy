@@ -143,7 +143,22 @@
 	border: none;
 	cursor: pointer;
 	padding: 5%;
-	background-color: rgb(48, 148, 153);;
+	background-color: rgb(48, 148, 153);
+	/*border-radius: 5%;*/
+	transition: 0.4s;
+}
+.input-box-contact input.contact-input[type="submit"]:hover,
+ .input-box-contact input.contact-input[type="submit"]:focus{
+	font-size: 1.2rem;
+	font-weight: 500;
+	width: 100%;
+	color:  rgb(48, 148, 153);
+	border: 1px solid rgb(48, 148, 153);
+	/*border-radius: 25%;*/
+	/*border: none;*/
+	cursor: pointer;
+	padding: 5%;
+	background-color: #fff;
 }
 
 

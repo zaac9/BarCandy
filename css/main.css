@@ -357,7 +357,7 @@ footer {
 	font-size: 1rem;
 	font-weight: 400;
 }*/
-.footer-content-container .link, .footer-content-container p {
+.footer-content-container a, .footer-content-container p {
 	padding-top: 3%;
 }
 /*<a>*/
@@ -375,7 +375,7 @@ footer {
 	text-decoration: underline;
 }
 /*styleguide located in footer:*/
-#styleguide {
+.styleguide {
 /*	padding-top: 10rem;
 	padding-left: 5rem;
 	padding-right:5rem;*/

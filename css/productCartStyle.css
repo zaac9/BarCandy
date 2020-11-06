@@ -5,7 +5,7 @@
 }*/
 
 /*inside .contact*/
-.content p{
+.checkout-content p{
 	/*max-width: 60%;*/
 	text-align: center;
 	/*align-content: center;*/
@@ -14,7 +14,7 @@
 	/*padding-left: 20%;*/
 }
 
-.content h4 {
+.checkout-content h4 {
 	color: #309499;
 	text-align: center;
 	padding-bottom: 5%;

@@ -127,6 +127,11 @@
 		padding-bottom: 5%;
 		margin-bottom: 5%;
 	}*/
+	.checkout-content h3 {
+		font-size: 1rem;
+		font-weight: 400;
+	}
+
 }
 
 @media screen and (max-width: 450px) {
@@ -175,6 +180,9 @@
 	h3.subtitle {
 		padding-top: 8%;
 	}
+	.barcandy-logo img {
+		max-width: 30%;
+	}
 
 }
 
@@ -189,8 +197,9 @@
 	}
 	.header-logo {
 		max-width: 50%;
-		/*left: 0;*/
-		/*flex: 0.5;*/
+	}
+	.barcandy-logo img {
+		max-width: 20%;
 	}
 	.nav-links {
 		/*display: flex;*/

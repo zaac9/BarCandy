@@ -74,7 +74,8 @@
 .contact-form {
 	width: 40%;
 	padding: 5%;
-	background: white;
+	/*removed white bg as it was casuing a problem with the email sign up button*/
+	/*background: white;*/
 }
 
 .contact-form h3 {

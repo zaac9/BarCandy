@@ -316,13 +316,18 @@ footer {
 	/*height: 1000px;*/
 }
 .footer-container {
-	/*fegj*/
 	flex-wrap: wrap;
 	justify-content: space-around;
-	padding: 0 5%;
+	padding: 3% 5%;
 }
-.footer-col-1-of-4 {
+/*.footer-col-1-of-4 {
 	flex-basis: 25%;
+	padding: 3%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}*/
+.footer-content {
 	padding: 3%;
 	display: flex;
 	flex-wrap: wrap;
@@ -372,7 +377,7 @@ footer {
 }
 
 /*Styling email sign-up*/ 
-.input-box input{
+.input-box-email input{
 	width: 100%;
 	padding: 4% 0;
 	padding-left: 4%;
@@ -382,7 +387,7 @@ footer {
 	border-bottom: 2px solid #333;
 	outline: none;
 }
-.input-box input[type="submit"] {
+.input-box-email input[type="submit"] {
 	font-size: 1rem;
 	font-weight: 500;
 	width: 100%;
@@ -391,7 +396,7 @@ footer {
 	cursor: pointer;
 	margin-top: 1%;
 	padding: 3%;
-	background-color: rgb(48, 148, 153);;
+	background-color: rgb(48, 148, 153);
 }
 
 /*.product-container {
